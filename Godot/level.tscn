@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://m7myie5psdn4"]
+
+[ext_resource type="PackedScene" uid="uid://vqk88mellxri" path="res://GLB format/light-curved-cross.glb" id="1_0b4ue"]
+[ext_resource type="PackedScene" uid="uid://bqmyqudscfe7x" path="res://GLB format/construction-barrier.glb" id="2_f2txt"]
+[ext_resource type="PackedScene" uid="uid://n18s6cbr66wn" path="res://GLB format/bridge-pillar.glb" id="3_1ainy"]
+[ext_resource type="PackedScene" uid="uid://cbndkf5x25e40" path="res://GLB format/light-square-cross.glb" id="4_n6hdu"]
+
+[node name="Level" type="Node3D" unique_id=1851134636]
+
+[node name="A" type="Node3D" parent="." unique_id=1469815521]
+
+[node name="light-curved-cross2" parent="A" unique_id=455365459 instance=ExtResource("1_0b4ue")]
+
+[node name="construction-barrier2" parent="A" unique_id=1296801673 instance=ExtResource("2_f2txt")]
+
+[node name="construction-barrier2" parent="A/construction-barrier2" unique_id=1436923212 instance=ExtResource("2_f2txt")]
+
+[node name="bridge-pillar2" parent="A" unique_id=626979221 instance=ExtResource("3_1ainy")]
+
+[node name="light-curved-cross3" parent="A" unique_id=1479490465 instance=ExtResource("1_0b4ue")]
+
+[node name="bridge-pillar3" parent="A" unique_id=1978293662 instance=ExtResource("3_1ainy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.789434, 0, 0)
+
+[node name="light-curved-cross4" parent="A" unique_id=2128942951 instance=ExtResource("1_0b4ue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.789434, 0, 1.3546515)
+
+[node name="B" type="Node3D" parent="." unique_id=478413996]
+
+[node name="light-square-cross2" parent="B" unique_id=701811973 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3403685, 0, 1.0887384)
+
+[node name="light-square-cross3" parent="B" unique_id=999323438 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.680737, 0, 2.177477)
+
+[node name="light-square-cross4" parent="B" unique_id=964640447 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0211055, 0, 3.2662153)
+
+[node name="light-square-cross5" parent="B" unique_id=2102967997 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.361474, 0, 4.354954)
+
+[node name="light-square-cross6" parent="B" unique_id=584059971 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7018425, 0, 5.443692)
+
+[node name="light-square-cross7" parent="B" unique_id=1399176833 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.042211, 0, 6.5324306)
+
+[node name="light-square-cross8" parent="B" unique_id=207471784 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3825796, 0, 7.621169)
+
+[node name="light-square-cross9" parent="B" unique_id=2000596713 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.722948, 0, 8.709908)
+
+[node name="light-square-cross10" parent="B" unique_id=1363148680 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4247904, 0, -2.2869768)
+
+[node name="light-square-cross11" parent="B" unique_id=1469666399 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.765159, 0, -1.1982384)
+
+[node name="light-square-cross12" parent="B" unique_id=226839640 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.105528, 0, -0.10949898)
+
+[node name="light-square-cross13" parent="B" unique_id=1985865975 instance=ExtResource("4_n6hdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.445896, 0, 0.9792385)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=266732662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.234798, 0.6568618, 1.9675992)
