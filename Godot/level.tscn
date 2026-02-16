@@ -4,6 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://bqmyqudscfe7x" path="res://GLB format/construction-barrier.glb" id="2_f2txt"]
 [ext_resource type="PackedScene" uid="uid://n18s6cbr66wn" path="res://GLB format/bridge-pillar.glb" id="3_1ainy"]
 [ext_resource type="PackedScene" uid="uid://cbndkf5x25e40" path="res://GLB format/light-square-cross.glb" id="4_n6hdu"]
+[ext_resource type="Script" uid="uid://bfmbvg7v6mk2k" path="res://caller.gd" id="5_1ainy"]
+[ext_resource type="Script" uid="uid://dgl2bjdfn3drq" path="res://receiver.gd" id="6_n6hdu"]
 
 [node name="Level" type="Node3D" unique_id=1851134636]
 
@@ -65,3 +67,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.445896, 0, 0.9792385)
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=266732662]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.234798, 0.6568618, 1.9675992)
+
+[node name="Caller" type="Node" parent="." unique_id=667382807 node_paths=PackedStringArray("receiver")]
+script = ExtResource("5_1ainy")
+receiver = NodePath("../Receiver")
+
+[node name="Receiver" type="Node" parent="." unique_id=43128211]
+script = ExtResource("6_n6hdu")
